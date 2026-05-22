@@ -12,7 +12,8 @@ This milestone intentionally avoids finance features so the authentication found
 ## Decisions
 
 - Use a single Git repository with two app folders: `backend/` for Laravel and `frontend/` for Vue 3.
-- Use Laravel as an API backend, not Blade templating.
+- Use Laravel 13 as an API backend, not Blade templating.
+- Use PHP 8.3 for local development and VPS deployment.
 - Use Vue 3 with Vite for the frontend SPA.
 - Use Laravel Sanctum SPA cookie authentication.
 - Deploy under one domain, with Vue serving the app and Laravel handling `/api` routes.
